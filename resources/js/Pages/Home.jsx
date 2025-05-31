@@ -2,8 +2,8 @@ import Layout from "../Layouts/Layout";
 
 function Home({ name }) {
     return (
-        <div className="text-4xl font-bold w-screen text-center">
-            Home {name}
+        <div className="title">
+            <span>Home {name}</span>
         </div>
     );
 }
